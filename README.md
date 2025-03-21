@@ -1,4 +1,5 @@
 <font color="red">1.Project Planning & Management</font>
+<p style="color:blue"1.Project Planning & Management</p>
 
 	Project Proposal 
 Overview: This project aims to design and configure a network infrastructure using Cisco devices. The goal is to implement internal and external networks using Cisco routers and switches. The project involves configuring 10 routers, 2 switches, and integrating multiple routing protocols (OSPF, EIGRP, BGP) for inter-router communication. The primary objective is to set up a network that uses multiple routing protocols and secure configurations.
