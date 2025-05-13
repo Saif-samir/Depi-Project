@@ -1,0 +1,58 @@
+May 06 17:27:48.316 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 06 17:27:48.316 HYPERVISOR: Started on IP = localhost, TCP port = 55825.
+May 06 17:27:48.825 HYPERVISOR: exec_cmd: hypervisor version 
+May 06 17:27:48.825 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips 
+May 06 17:27:48.825 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips
+May 06 17:27:48.826 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\41c9f367-4c2d-4701-b5bd-325962be553a 
+May 06 17:27:48.827 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\41c9f367-4c2d-4701-b5bd-325962be553a
+May 06 17:27:48.827 HYPERVISOR: exec_cmd: vm create R8 8 c2691 
+May 06 17:27:48.828 VM: VM R8 created.
+May 06 17:27:48.828 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 5002 
+May 06 17:27:48.829 HYPERVISOR: exec_cmd: c2691 get_mac_addr R8 
+May 06 17:27:48.829 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+May 06 17:27:48.830 HYPERVISOR: exec_cmd: vm set_exec_area R8 64 
+May 06 17:27:48.831 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:27:48.831 HYPERVISOR: exec_cmd: vm set_idle_pc R8 0x60bcf9f8 
+May 06 17:27:48.832 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/saifs/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image 
+May 06 17:27:48.832 HYPERVISOR: exec_cmd: c2691 set_mac_addr R8 c008.2f90.0000 
+May 06 17:27:48.832 HYPERVISOR: exec_cmd: vm set_nvram R8 256 
+May 06 17:27:48.833 HYPERVISOR: exec_cmd: vm set_ram R8 192 
+May 06 17:27:48.833 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:27:48.833 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 NM-16ESW 
+May 06 17:27:48.834 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:27:48.834 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 16 WIC-1T 
+May 06 17:27:48.834 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:27:48.835 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 32 WIC-2T 
+May 06 17:27:51.064 HYPERVISOR: exec_cmd: nio create_udp udp-3ee1c7d4-e7a9-4621-a071-3e557e975a75 10044 127.0.0.1 10045 
+May 06 17:27:51.316 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 0 udp-3ee1c7d4-e7a9-4621-a071-3e557e975a75 
+May 06 17:27:51.317 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:27:52.186 HYPERVISOR: exec_cmd: nio create_udp udp-54ff914d-57f2-4c88-b38e-c58832f86b65 10056 127.0.0.1 10057 
+May 06 17:27:52.189 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 1 0 udp-54ff914d-57f2-4c88-b38e-c58832f86b65 
+May 06 17:27:52.191 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:27:52.239 HYPERVISOR: exec_cmd: nio create_udp udp-592890da-18a4-4b5a-b799-755a7e181691 10062 127.0.0.1 10063 
+May 06 17:27:52.242 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 1 1 udp-592890da-18a4-4b5a-b799-755a7e181691 
+May 06 17:27:52.242 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:27:52.700 HYPERVISOR: exec_cmd: nio create_udp udp-7320cf15-5349-4a96-ac25-b46c4411b289 10082 127.0.0.1 10083 
+May 06 17:27:52.702 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 1 udp-7320cf15-5349-4a96-ac25-b46c4411b289 
+May 06 17:27:52.702 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:28:50.604 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+May 06 17:28:50.605 HYPERVISOR: exec_cmd: vm set_ghost_file R8 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:28:50.605 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 17:28:50.612 HYPERVISOR: exec_cmd: vm set_config R8 configs\i8_startup-config.cfg 
+May 06 17:28:50.612 HYPERVISOR: exec_cmd: vm start R8 
+May 06 17:29:20.969 HYPERVISOR: exec_cmd: vm extract_config R8 
+May 06 17:29:20.983 HYPERVISOR: exec_cmd: vm extract_config R8 
+May 06 17:57:10.986 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+May 06 17:57:10.987 HYPERVISOR: exec_cmd: vm set_ghost_file R8 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:57:10.987 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 18:41:33.856 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 18:41:33.857 HYPERVISOR: exec_cmd: vm stop R8 
+May 06 18:41:34.033 VM: VM R8 shutdown.
+May 06 18:41:34.033 HYPERVISOR: exec_cmd: vm extract_config R8 
+May 06 18:41:34.477 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+May 06 18:41:34.484 HYPERVISOR: exec_cmd: vm set_ghost_file R8 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 18:41:34.485 HYPERVISOR: exec_cmd: vm get_status R8 
+May 06 18:41:34.492 HYPERVISOR: exec_cmd: vm set_config R8 configs\i8_startup-config.cfg 
+May 06 18:41:34.492 HYPERVISOR: exec_cmd: vm start R8 
+May 06 18:42:04.806 HYPERVISOR: exec_cmd: vm extract_config R8 
+May 06 18:42:04.821 HYPERVISOR: exec_cmd: vm extract_config R8 

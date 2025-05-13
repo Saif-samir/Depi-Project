@@ -1,0 +1,58 @@
+May 06 17:27:48.884 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 06 17:27:48.885 HYPERVISOR: Started on IP = localhost, TCP port = 55828.
+May 06 17:27:49.366 HYPERVISOR: exec_cmd: hypervisor version 
+May 06 17:27:49.367 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips 
+May 06 17:27:49.369 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips
+May 06 17:27:49.369 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\ce7148cd-3ea1-4347-9801-379daeeb3565 
+May 06 17:27:49.370 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\ce7148cd-3ea1-4347-9801-379daeeb3565
+May 06 17:27:49.370 HYPERVISOR: exec_cmd: vm create R9 9 c2691 
+May 06 17:27:49.371 VM: VM R9 created.
+May 06 17:27:49.372 HYPERVISOR: exec_cmd: vm set_con_tcp_port R9 5003 
+May 06 17:27:49.372 HYPERVISOR: exec_cmd: c2691 get_mac_addr R9 
+May 06 17:27:49.372 HYPERVISOR: exec_cmd: vm set_disk0 R9 0 
+May 06 17:27:49.373 HYPERVISOR: exec_cmd: vm set_exec_area R9 64 
+May 06 17:27:49.373 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:27:49.373 HYPERVISOR: exec_cmd: vm set_idle_pc R9 0x60bcf9f8 
+May 06 17:27:49.374 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/saifs/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image 
+May 06 17:27:49.375 HYPERVISOR: exec_cmd: c2691 set_mac_addr R9 c009.6af8.0000 
+May 06 17:27:49.376 HYPERVISOR: exec_cmd: vm set_nvram R9 256 
+May 06 17:27:49.376 HYPERVISOR: exec_cmd: vm set_ram R9 192 
+May 06 17:27:49.376 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:27:49.377 HYPERVISOR: exec_cmd: vm slot_add_binding R9 1 0 NM-16ESW 
+May 06 17:27:49.377 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:27:49.377 HYPERVISOR: exec_cmd: vm slot_add_binding R9 0 16 WIC-1T 
+May 06 17:27:49.377 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:27:49.378 HYPERVISOR: exec_cmd: vm slot_add_binding R9 0 32 WIC-2T 
+May 06 17:27:51.621 HYPERVISOR: exec_cmd: nio create_udp udp-402d479c-933a-490b-896e-57dea8f41961 10050 127.0.0.1 10051 
+May 06 17:27:51.878 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 0 1 udp-402d479c-933a-490b-896e-57dea8f41961 
+May 06 17:27:51.879 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:27:52.196 HYPERVISOR: exec_cmd: nio create_udp udp-2ff208a4-a3c1-4781-820d-4dd749e6745f 10058 127.0.0.1 10059 
+May 06 17:27:52.197 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 1 0 udp-2ff208a4-a3c1-4781-820d-4dd749e6745f 
+May 06 17:27:52.198 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:27:52.294 HYPERVISOR: exec_cmd: nio create_udp udp-2d6ef98f-85a0-4c6b-a8a3-eebeb863c665 10068 127.0.0.1 10069 
+May 06 17:27:52.296 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 1 1 udp-2d6ef98f-85a0-4c6b-a8a3-eebeb863c665 
+May 06 17:27:52.297 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:27:52.638 HYPERVISOR: exec_cmd: nio create_udp udp-1e580455-a4b1-4a09-af57-c606169b3ff6 10076 127.0.0.1 10077 
+May 06 17:27:52.639 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 0 0 udp-1e580455-a4b1-4a09-af57-c606169b3ff6 
+May 06 17:27:52.640 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:28:50.605 HYPERVISOR: exec_cmd: vm set_ghost_status R9 2 
+May 06 17:28:50.612 HYPERVISOR: exec_cmd: vm set_ghost_file R9 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:28:50.613 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 17:28:50.619 HYPERVISOR: exec_cmd: vm set_config R9 configs\i9_startup-config.cfg 
+May 06 17:28:50.619 HYPERVISOR: exec_cmd: vm start R9 
+May 06 17:29:20.969 HYPERVISOR: exec_cmd: vm extract_config R9 
+May 06 17:29:20.985 HYPERVISOR: exec_cmd: vm extract_config R9 
+May 06 17:57:10.994 HYPERVISOR: exec_cmd: vm set_ghost_status R9 2 
+May 06 17:57:10.995 HYPERVISOR: exec_cmd: vm set_ghost_file R9 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:57:10.996 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 18:41:33.979 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 18:41:33.979 HYPERVISOR: exec_cmd: vm stop R9 
+May 06 18:41:34.164 VM: VM R9 shutdown.
+May 06 18:41:34.165 HYPERVISOR: exec_cmd: vm extract_config R9 
+May 06 18:41:34.792 HYPERVISOR: exec_cmd: vm set_ghost_status R9 2 
+May 06 18:41:34.792 HYPERVISOR: exec_cmd: vm set_ghost_file R9 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 18:41:34.794 HYPERVISOR: exec_cmd: vm get_status R9 
+May 06 18:41:34.801 HYPERVISOR: exec_cmd: vm set_config R9 configs\i9_startup-config.cfg 
+May 06 18:41:34.805 HYPERVISOR: exec_cmd: vm start R9 
+May 06 18:42:05.157 HYPERVISOR: exec_cmd: vm extract_config R9 
+May 06 18:42:05.171 HYPERVISOR: exec_cmd: vm extract_config R9 

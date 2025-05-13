@@ -1,0 +1,52 @@
+May 06 17:27:47.142 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 06 17:27:47.143 HYPERVISOR: Started on IP = localhost, TCP port = 55815.
+May 06 17:27:47.652 HYPERVISOR: exec_cmd: hypervisor version 
+May 06 17:27:47.652 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips 
+May 06 17:27:47.653 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips
+May 06 17:27:47.653 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\5d546a4f-d05b-49b4-9cf2-e3c1c951209d 
+May 06 17:27:47.653 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\5d546a4f-d05b-49b4-9cf2-e3c1c951209d
+May 06 17:27:47.653 HYPERVISOR: exec_cmd: vm create R6 6 c2691 
+May 06 17:27:47.654 VM: VM R6 created.
+May 06 17:27:47.654 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5015 
+May 06 17:27:47.654 HYPERVISOR: exec_cmd: c2691 get_mac_addr R6 
+May 06 17:27:47.656 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+May 06 17:27:47.656 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+May 06 17:27:47.657 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 17:27:47.657 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x60bcf9f8 
+May 06 17:27:47.658 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/saifs/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image 
+May 06 17:27:47.658 HYPERVISOR: exec_cmd: c2691 set_mac_addr R6 c006.5d84.0000 
+May 06 17:27:47.659 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+May 06 17:27:47.659 HYPERVISOR: exec_cmd: vm set_ram R6 192 
+May 06 17:27:47.660 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 17:27:47.660 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-16ESW 
+May 06 17:27:47.660 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 17:27:47.661 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 16 WIC-1T 
+May 06 17:27:47.661 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 17:27:47.661 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 32 WIC-2T 
+May 06 17:27:51.322 HYPERVISOR: exec_cmd: nio create_udp udp-e8f3350b-28f5-4469-9c53-2cb819444899 10046 127.0.0.1 10047 
+May 06 17:27:51.578 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-e8f3350b-28f5-4469-9c53-2cb819444899 
+May 06 17:27:51.578 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 17:27:52.301 HYPERVISOR: exec_cmd: nio create_udp udp-e891f815-c4f9-419e-9fda-af8063e27b67 10070 127.0.0.1 10071 
+May 06 17:27:52.303 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 1 udp-e891f815-c4f9-419e-9fda-af8063e27b67 
+May 06 17:27:52.303 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 17:28:50.248 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+May 06 17:28:50.249 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:28:50.249 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 17:28:50.256 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+May 06 17:28:50.256 HYPERVISOR: exec_cmd: vm start R6 
+May 06 17:29:20.613 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 06 17:29:20.625 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 06 17:57:10.987 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+May 06 17:57:10.990 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:57:10.992 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 18:41:33.857 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 18:41:33.857 HYPERVISOR: exec_cmd: vm stop R6 
+May 06 18:41:33.991 VM: VM R6 shutdown.
+May 06 18:41:33.991 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 06 18:41:34.467 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+May 06 18:41:34.470 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 18:41:34.471 HYPERVISOR: exec_cmd: vm get_status R6 
+May 06 18:41:34.476 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+May 06 18:41:34.477 HYPERVISOR: exec_cmd: vm start R6 
+May 06 18:42:04.806 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 06 18:42:04.821 HYPERVISOR: exec_cmd: vm extract_config R6 

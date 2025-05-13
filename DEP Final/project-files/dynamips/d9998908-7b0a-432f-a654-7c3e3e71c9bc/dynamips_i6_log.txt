@@ -1,0 +1,52 @@
+May 06 17:27:47.711 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 06 17:27:47.711 HYPERVISOR: Started on IP = localhost, TCP port = 55819.
+May 06 17:27:47.714 HYPERVISOR: exec_cmd: hypervisor version 
+May 06 17:27:47.715 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips 
+May 06 17:27:47.715 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips
+May 06 17:27:47.715 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\32299706-8ad0-4a1b-b9f4-6cbc078933af 
+May 06 17:27:47.715 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\32299706-8ad0-4a1b-b9f4-6cbc078933af
+May 06 17:27:47.716 HYPERVISOR: exec_cmd: vm create R10 10 c2691 
+May 06 17:27:47.716 VM: VM R10 created.
+May 06 17:27:47.717 HYPERVISOR: exec_cmd: vm set_con_tcp_port R10 5019 
+May 06 17:27:47.717 HYPERVISOR: exec_cmd: c2691 get_mac_addr R10 
+May 06 17:27:47.717 HYPERVISOR: exec_cmd: vm set_disk0 R10 0 
+May 06 17:27:47.717 HYPERVISOR: exec_cmd: vm set_exec_area R10 64 
+May 06 17:27:47.718 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 17:27:47.718 HYPERVISOR: exec_cmd: vm set_idle_pc R10 0x60bcf9f8 
+May 06 17:27:47.718 HYPERVISOR: exec_cmd: vm set_ios R10 C:/Users/saifs/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image 
+May 06 17:27:47.719 HYPERVISOR: exec_cmd: c2691 set_mac_addr R10 c00a.6b10.0000 
+May 06 17:27:47.719 HYPERVISOR: exec_cmd: vm set_nvram R10 256 
+May 06 17:27:47.719 HYPERVISOR: exec_cmd: vm set_ram R10 192 
+May 06 17:27:47.720 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 17:27:47.720 HYPERVISOR: exec_cmd: vm slot_add_binding R10 1 0 NM-16ESW 
+May 06 17:27:47.720 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 17:27:47.720 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 16 WIC-1T 
+May 06 17:27:47.721 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 17:27:47.721 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 32 WIC-2T 
+May 06 17:27:51.884 HYPERVISOR: exec_cmd: nio create_udp udp-f528a0f6-abec-4466-ad4e-a8e2e89e63fc 10052 127.0.0.1 10053 
+May 06 17:27:52.140 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 0 1 udp-f528a0f6-abec-4466-ad4e-a8e2e89e63fc 
+May 06 17:27:52.140 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 17:27:52.246 HYPERVISOR: exec_cmd: nio create_udp udp-c7055001-db05-4a18-96cb-c734fca49457 10064 127.0.0.1 10065 
+May 06 17:27:52.248 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 1 1 udp-c7055001-db05-4a18-96cb-c734fca49457 
+May 06 17:27:52.248 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 17:28:50.267 HYPERVISOR: exec_cmd: vm set_ghost_status R10 2 
+May 06 17:28:50.268 HYPERVISOR: exec_cmd: vm set_ghost_file R10 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:28:50.268 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 17:28:50.275 HYPERVISOR: exec_cmd: vm set_config R10 configs\i10_startup-config.cfg 
+May 06 17:28:50.275 HYPERVISOR: exec_cmd: vm start R10 
+May 06 17:29:20.613 HYPERVISOR: exec_cmd: vm extract_config R10 
+May 06 17:29:20.622 HYPERVISOR: exec_cmd: vm extract_config R10 
+May 06 17:57:10.984 HYPERVISOR: exec_cmd: vm set_ghost_status R10 2 
+May 06 17:57:10.985 HYPERVISOR: exec_cmd: vm set_ghost_file R10 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:57:10.986 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 18:41:33.856 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 18:41:33.857 HYPERVISOR: exec_cmd: vm stop R10 
+May 06 18:41:33.972 VM: VM R10 shutdown.
+May 06 18:41:33.973 HYPERVISOR: exec_cmd: vm extract_config R10 
+May 06 18:41:34.471 HYPERVISOR: exec_cmd: vm set_ghost_status R10 2 
+May 06 18:41:34.477 HYPERVISOR: exec_cmd: vm set_ghost_file R10 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 18:41:34.477 HYPERVISOR: exec_cmd: vm get_status R10 
+May 06 18:41:34.483 HYPERVISOR: exec_cmd: vm set_config R10 configs\i10_startup-config.cfg 
+May 06 18:41:34.484 HYPERVISOR: exec_cmd: vm start R10 
+May 06 18:42:04.805 HYPERVISOR: exec_cmd: vm extract_config R10 
+May 06 18:42:04.821 HYPERVISOR: exec_cmd: vm extract_config R10 

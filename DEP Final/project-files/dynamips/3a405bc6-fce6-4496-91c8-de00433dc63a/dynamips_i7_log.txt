@@ -1,0 +1,78 @@
+May 06 17:27:47.769 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 06 17:27:47.769 HYPERVISOR: Started on IP = localhost, TCP port = 55822.
+May 06 17:27:48.262 HYPERVISOR: exec_cmd: hypervisor version 
+May 06 17:27:48.263 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips 
+May 06 17:27:48.263 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips
+May 06 17:27:48.264 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\a0d52b58-5ceb-49d9-bb85-e227e58ffd19 
+May 06 17:27:48.264 GENERAL: working_dir=C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\a0d52b58-5ceb-49d9-bb85-e227e58ffd19
+May 06 17:27:48.264 HYPERVISOR: exec_cmd: vm create R2 2 c2691 
+May 06 17:27:48.266 VM: VM R2 created.
+May 06 17:27:48.266 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5000 
+May 06 17:27:48.267 HYPERVISOR: exec_cmd: c2691 get_mac_addr R2 
+May 06 17:27:48.267 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+May 06 17:27:48.267 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+May 06 17:27:48.268 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:27:48.268 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60bcf9f8 
+May 06 17:27:48.269 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/saifs/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image 
+May 06 17:27:48.269 HYPERVISOR: exec_cmd: c2691 set_mac_addr R2 c002.2e04.0000 
+May 06 17:27:48.269 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+May 06 17:27:48.270 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+May 06 17:27:48.270 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:27:48.270 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-16ESW 
+May 06 17:27:48.270 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:27:48.270 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-1T 
+May 06 17:27:48.270 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:27:48.271 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 32 WIC-2T 
+May 06 17:27:50.716 HYPERVISOR: exec_cmd: nio create_udp udp-8b72386d-7200-4849-89c7-fa37106b5046 10032 127.0.0.1 10033 
+May 06 17:27:50.972 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-8b72386d-7200-4849-89c7-fa37106b5046 
+May 06 17:27:50.972 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:27:51.014 HYPERVISOR: exec_cmd: nio create_udp udp-2a6b8b9f-6b7e-4717-bc67-20e7f69ed9ed 10038 127.0.0.1 10039 
+May 06 17:27:51.018 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-2a6b8b9f-6b7e-4717-bc67-20e7f69ed9ed 
+May 06 17:27:51.018 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:27:52.755 HYPERVISOR: exec_cmd: nio create_udp udp-e7a6753e-fa67-4f6b-8015-848f2a601fd1 10088 127.0.0.1 10089 
+May 06 17:27:52.757 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 16 udp-e7a6753e-fa67-4f6b-8015-848f2a601fd1 
+May 06 17:27:52.757 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:28:50.520 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+May 06 17:28:50.521 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\saifs\GNS3\projects\DEP2\project-files\dynamips\c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+May 06 17:28:50.522 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:28:50.530 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+May 06 17:28:50.530 HYPERVISOR: exec_cmd: vm start R2 
+May 06 17:29:20.829 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 06 17:29:20.852 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 06 17:36:18.401 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:36:18.401 HYPERVISOR: exec_cmd: vm slot_disable_nio R2 0 1 
+May 06 17:36:18.429 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 1 
+May 06 17:36:18.431 HYPERVISOR: exec_cmd: nio delete udp-8b72386d-7200-4849-89c7-fa37106b5046 
+May 06 17:36:28.128 HYPERVISOR: exec_cmd: nio create_udp udp-aaa41b22-f7df-414e-97dc-4ad8365c6974 10032 127.0.0.1 10033 
+May 06 17:36:28.130 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-aaa41b22-f7df-414e-97dc-4ad8365c6974 
+May 06 17:36:28.130 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:36:28.131 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 0 1 
+May 06 17:41:43.522 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:41:43.522 HYPERVISOR: exec_cmd: vm slot_disable_nio R2 0 1 
+May 06 17:41:43.548 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 1 
+May 06 17:41:43.549 HYPERVISOR: exec_cmd: nio delete udp-aaa41b22-f7df-414e-97dc-4ad8365c6974 
+May 06 17:41:53.334 HYPERVISOR: exec_cmd: nio create_udp udp-02d22e12-8922-427b-9645-abebb1e26d5f 10004 127.0.0.1 10005 
+May 06 17:41:53.337 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-02d22e12-8922-427b-9645-abebb1e26d5f 
+May 06 17:41:53.338 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:41:53.338 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 0 1 
+May 06 17:54:51.416 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:54:51.417 HYPERVISOR: exec_cmd: vm slot_disable_nio R2 0 1 
+May 06 17:54:51.446 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 1 
+May 06 17:54:51.447 HYPERVISOR: exec_cmd: nio delete udp-02d22e12-8922-427b-9645-abebb1e26d5f 
+May 06 17:54:51.820 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:54:51.820 HYPERVISOR: exec_cmd: vm slot_disable_nio R2 0 0 
+May 06 17:54:51.847 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 0 
+May 06 17:54:51.848 HYPERVISOR: exec_cmd: nio delete udp-2a6b8b9f-6b7e-4717-bc67-20e7f69ed9ed 
+May 06 17:54:51.930 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:54:51.930 HYPERVISOR: exec_cmd: vm slot_disable_nio R2 0 16 
+May 06 17:54:51.941 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 16 
+May 06 17:54:51.942 HYPERVISOR: exec_cmd: nio delete udp-e7a6753e-fa67-4f6b-8015-848f2a601fd1 
+May 06 17:54:52.049 HYPERVISOR: exec_cmd: vm get_status R2 
+May 06 17:54:52.049 HYPERVISOR: exec_cmd: vm stop R2 
+May 06 17:54:52.163 VM: VM R2 shutdown.
+May 06 17:54:52.164 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 06 17:54:52.166 HYPERVISOR: exec_cmd: vm delete R2 
+May 06 17:54:52.166 VM: VM R2 destroyed.
+May 06 17:54:52.168 HYPERVISOR: exec_cmd: hypervisor stop 
+May 06 17:54:52.465 HYPERVISOR: Stopped.
+May 06 17:54:52.465 GENERAL: reset done.
